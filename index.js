@@ -93,3 +93,27 @@ example4.forEach(function (name, i) {
 //while (example4.length > 0) {
 // console.log(example4.pop());
 //}
+
+//выводим количество букв в именах
+for (let i = 0; i < example4.length; i++) {
+  console.log(example4[i].length);
+}
+
+//выводим имена большими буквами
+for (let i = 0; i < example4.length; i++) {
+  console.log(example4[i].toUpperCase());
+}
+
+let example6 = ["i", "love", "karakol"];
+let result = "";
+for (let i = 0; i < example6.length; i++) {
+  result = result + example6[i] + " ";
+}
+console.log(result);
+
+let example7 = [54, 11, 44, 21, 3, 110];
+let result1 = 0;
+for (let i = 0; i < example7.length; i++) {
+  result1 = result1 + example7[i];
+}
+console.log(result1);
