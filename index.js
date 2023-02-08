@@ -56,3 +56,40 @@ console.log(example5.length); //сколько элементов находит
 console.log("hello my mname is " + example4[0]);
 console.log("hello my mname is " + example4[1]);
 console.log("hello my mname is " + example4[2]);
+
+// 1 вариант
+for (let i = 0; i < 3; i++) {
+  console.log("hello, my name is " + example4[i] + " . Nice to meet you.");
+}
+
+for (let i = 0; i < example4.length; i++) {
+  console.log("hello, my name is " + example4[i] + " . Nice to meet you.");
+}
+
+for (let i = 0; i < example5.length; i++) {
+  console.log("my city " + example5[i]);
+}
+
+//2 вариант
+
+for (let name of example4) {
+  console.log("hello, i'm " + name);
+}
+
+// 3 вариант
+
+for (let i in example4) {
+  let name = example4[i];
+  console.log("hello, name is " + name);
+}
+
+//4 вариант
+// forEach для каждого
+example4.forEach(function (name, i) {
+  console.log("hello... " + name);
+});
+
+//5 вариант
+//while (example4.length > 0) {
+// console.log(example4.pop());
+//}
