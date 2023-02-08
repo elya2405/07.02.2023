@@ -26,3 +26,13 @@ while (number <= 25) {
 for (let a = 10; a >= -10; a--) {
   console.log(a);
 }
+
+
+// тема: Массивы (переменная которая хранит несколько значений)
+let example1 = [];
+let example2 = [3, 4, 1, 54, 33];
+let example3 = ["hello", 55, true, null];
+
+let example4 = ["aibek", "radbek", "elya"];
+
+let example5 = ["issyk-kul", "osh", "chui", "talas", "jalal-abad", "naryn"];
